@@ -1,0 +1,172 @@
+﻿
+
+/*----------------------common-------------------------*/
+ *{      margin:0; padding:0; font-family:Microsoft YaHei;}
+.clear{ clear:both;}
+.fl{ float:left;}
+.fr{ float:right;}
+img{ border:none;}
+a{ text-decoration:none;}
+a:hover{ text-decoration:underline;}
+li{ list-style-type:none;}
+.ofh{overflow:hidden;}
+.center{ text-align:center;}
+.em{ text-indent:2em;}
+.p10{ padding:10px;}
+body{ background:url(../images/bj.jpg) top center fixed no-repeat;}
+
+/*----------------------con-------------------------*/
+.con{ width:500px; padding:20px; height:auto; margin:10px auto; background:#fff; background-color:rgba(255,255,255,0.8);-moz-border-radius:10px;border-radius:10px;}
+/*----------------head-----------------*/
+header{ width:500px; height:auto; margin:auto;}
+
+.logo{ width:450px; height:auto; margin:10px auto; text-align:center;}
+.logo h1{ font-size:40px; line-height:100px; color:#214e39; font-family:楷体;}
+nav{ width:500px; height:80px; margin:5px auto;background-color:#214e39;}
+nav ul{ padding-left:10px;}
+nav li{ width:200px; float:left; padding:5px 20px; text-align:center; }
+nav li a{ font-size:16px; line-height:30px; color:#fff;}
+nav li a:hover{ color:#fff; text-decoration:none;}
+nav li:hover{ background-color:#2c667a}
+nav li:hover a{ color:#fff;}
+.lunbo{ width:500px; height:auto; margin:5px auto;-moz-border-radius:10px;border-radius:10px;}
+.lunbo img{ width:500px;}
+
+
+/*----------------main-----------------*/
+.main{ width:500px; height:auto; margin:10px auto; }
+.main h2{font-size:25px; line-height:50px; margin:10px auto; color:#214e39; text-align:center; border-bottom:1px dotted #214e39;} 
+.main p{ padding-top:10px;font-size:14px; line-height:24px; color:#555; text-indent:2em }
+
+.columns{	 width:500px; height:auto; margin:10px auto;}
+.columns img{ width:500px; height:400px; margin-left:-10px; }
+.columns p{font-size:14px; line-height:24px; color:#555; text-align:center;}
+.columns p a{color:#214e39; text-align:center;}
+/*----------------foot-----------------*/
+footer{ width:500px; height:50px; margin:10px auto; padding-top:10px; border-top:3px solid #214e39; text-align:center; font-size:14px; line-height:24px; color:#666;}
+
+
+
+@media screen and (min-width:400px) {
+
+
+
+/*----------------------con-------------------------*/
+.con{ width:300px; padding:20px; height:auto; margin:10px auto; background:#fff; background-color:rgba(255,255,255,0.8);-moz-border-radius:10px;border-radius:10px;}
+/*----------------head-----------------*/
+header{ width:300px; height:auto; margin:auto;}
+
+.logo{ width:300px; height:auto; margin:10px auto; text-align:center;}
+.logo h1{ font-size:36px; line-height:80px; color:#214e39; font-family:楷体;}
+nav{ width:300px; height:auto; margin:5px auto;background-color:#214e39;}
+nav ul{ padding-left:0px;}
+nav li{ width:300px; float:left;text-align:center;  padding:5px 0px; }
+nav li a{ font-size:16px; line-height:30px; color:#214e39;}
+nav li a:hover{ color:#fff; text-decoration:none;}
+nav li:hover{ background-color:#2c667a}
+nav li:hover a{ color:#fff;}
+.lunbo{ width:300px; height:auto; margin:5px auto;-moz-border-radius:10px;border-radius:10px;}
+.lunbo img{ width:300px;}
+
+
+/*----------------main-----------------*/
+.main{ width:300px; height:auto; margin:10px auto; }
+.main h2{font-size:25px; line-height:50px; margin:10px auto; color:#214e39; text-align:center; border-bottom:1px dotted #214e39;} 
+.main p{font-size:14px; line-height:24px; color:#555; }
+
+.columns{	 width:300px; height:auto; margin:10px auto;}
+.columns img{ width:300px; height:200px; margin-left:-10px; }
+.columns p{font-size:14px; line-height:24px; color:#555; text-align:center;}
+.columns p a{color:#214e39; text-align:center;}
+/*----------------foot-----------------*/
+footer{ width:300px; height:auto; margin:10px auto; padding-top:10px; border-top:3px solid #214e39; text-align:center; font-size:12px; line-height:24px; color:#666;}
+
+    
+}
+
+@media screen and (min-width:800px) {
+
+
+
+/*----------------------con-------------------------*/
+.con{ width:500px; padding:20px; height:auto; margin:10px auto; background:#fff; background-color:rgba(255,255,255,0.8);-moz-border-radius:10px;border-radius:10px;}
+/*----------------head-----------------*/
+header{ width:500px; height:auto; margin:auto;}
+
+.logo{ width:450px; height:auto; margin:10px auto; text-align:center;}
+.logo h1{ font-size:46px; line-height:110px; color:#214e39; font-family:楷体;}
+nav{ width:500px; height:80px; margin:5px auto;background-color:#214e39;}
+nav ul{ padding-left:10px;}
+nav li{ width:200px; float:left; padding:5px 20px; text-align:center; }
+nav li a{ font-size:16px; line-height:30px; color:#fff;}
+nav li a:hover{ color:#fff; text-decoration:none;}
+nav li:hover{ background-color:#2c667a}
+nav li:hover a{ color:#fff;}
+.lunbo{ width:500px; height:auto; margin:5px auto;-moz-border-radius:10px;border-radius:10px;}
+.lunbo img{ width:500px;}
+
+ 
+
+/*----------------main-----------------*/
+.main{ width:500px; height:auto; margin:10px auto; }
+.main h2{font-size:25px; line-height:50px; margin:10px auto; color:#214e39; text-align:center; border-bottom:1px dotted #214e39;} 
+.main p{font-size:14px; line-height:24px; color:#555; }
+
+.columns{	 width:500px; height:auto; margin:10px auto;}
+.columns img{ width:500px; height:400px; margin-left:-10px; }
+.columns p{font-size:14px; line-height:24px; color:#555; text-align:center;}
+.columns p a{color:#214e39; text-align:center;}
+/*----------------foot-----------------*/
+footer{ width:500px; height:50px; margin:10px auto; padding-top:10px; border-top:3px solid #214e39; text-align:center; font-size:14px; line-height:24px; color:#666;}
+
+    
+}
+
+
+
+@media screen and (min-width:1000px) {
+
+
+/*----------------------con-------------------------*/
+.con{ width:1000px; padding:20px; height:auto; margin:10px auto; background:#fff; background-color:rgba(255,255,255,0.8);}
+/*----------------head-----------------*/
+header{ width:1000px; height:auto; margin:auto;}
+
+.logo{ width:650px; height:auto; margin:10px auto; text-align:center;}
+.logo h1{ font-size:56px; line-height:110px; color:#214e39; font-family:楷体;}
+nav{ width:1000px; height:40px; margin:5px auto;background-color:#214e39;}
+nav ul{ padding-left:16px;}
+nav li{ width:200px; float:left; padding:5px 20px; text-align:center; }
+nav li a{ font-size:16px; line-height:30px; color:#fff;}
+nav li a:hover{ color:#fff; text-decoration:none;}
+nav li:hover{ background-color:#2c667a}
+nav li:hover a{ color:#fff;}
+.lunbo{ width:1000px; height:auto; margin:5px auto;-moz-border-radius:10px;border-radius:10px;}
+.lunbo img{ width:1000px;}
+
+ 
+
+/*----------------main-----------------*/
+.main{ width:1000px; height:auto; margin:10px auto; font-size:14px; line-height:24px; color:#555;}
+.main h2{font-size:25px; line-height:50px; margin:10px auto; color:#214e39; text-align:center; border-bottom:1px dotted #214e39;} 
+.main p{font-size:14px; line-height:24px; color:#555; }
+
+.columns{	width:970px; padding-left:30px;	-moz-columns:300px 3;	-webkit-columns:300px 3;	columns:300px 3;}
+.columns img{ width:300px; height:200px; }
+.columns p{font-size:14px; line-height:24px; color:#555; text-align:center;}
+.columns p a{color:#214e39; text-align:center;}
+/*----------------foot-----------------*/
+footer{ width:1000px; height:50px; margin:10px auto; padding-top:10px; border-top:3px solid #214e39; text-align:center; font-size:14px; line-height:24px; color:#666;}
+    
+}
+
+
+
+
+
+
+
+
+
+
+
